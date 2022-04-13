@@ -61,7 +61,7 @@
   width: 657px;
   height: 350px;
   top: 20%;
-  animation: slideY 3s linear;
+  animation: slideY 1s linear;
 }
 @keyframes slideY {
   0% {
