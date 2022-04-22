@@ -3,13 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>웹 퍼블리셔 이주희입니다</title>
-  <link rel="shortcut icon" type="image/x-icon" href="./img/icon.png">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!--open grap-->
+  <meta property="og:url" content="http://veryveryhappy.dothome.co.kr/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="이주희 포트폴리오입니다">
+  <meta property="og:image" content="./img/icon.png">
+  <meta property="og:description" content="이주희 포트폴리오입니다 (●'◡'●)">
+  <!--twitter-->
+  <meta name="twitter:card" content="portfolio"/>
+  <meta name="twitter:title" content="이주희 포트폴리오입니다"/>
+  <meta name="twitter:description" content="이주희 포트폴리오입니다 (●'◡'●)"/>
+  <meta name="twitter:url" content="http://veryveryhappy.dothome.co.kr/"/>
+  <meta name="twitter:image:src" content="./img/icon.png"/>
+  
+  <!--favicon-->
+  <link rel="icon" href="./img/icon.png">
+  <link rel="apple-touch-icon" href="./img/icon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/common.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <title>웹 퍼블리셔 이주희입니다</title>
 </head>
 
 <body>
@@ -25,74 +40,49 @@
     <header class="header">
       <nav id="gnb">
         <ul class="link">
-          <li class="git"><a href="https://github.com/VeryverySoHappy"><img src="./img/github-brands.svg"
-                alt="github 바로가기"></a></li>
-          <li class="velog"><a href="https://velog.io/@veryverysohappy"><img src="./img/vimeo-brands.svg"
-                alt="velog바로가기"></a></li>
+          <li><a href="https://github.com/VeryverySoHappy">github</a></li>
+          <li><a href="https://velog.io/@veryverysohappy">velog</a></li>
         </ul>
         <ul class="logo">
-          <li>
-            <a href="#">
-              <h1>
-                <div class="LJH">LJH</div>
-                <div class="introduce">Publisher & Designer</div>
-              </h1>
-            </a>
-          </li>
+          <li><a href="javascript:void(0)">
+            <h1>
+              <div>LJH</div>
+              <div>Publisher & Designer</div>
+            </h1>
+          </a></li>
         </ul>
         <ul class="jump">
-          <li class="active jumplist"><a href="#work">Work</a></li>
-          <li class="jumplist"><a href="#skill">Skill</a></li>
+          <li><a href="javascript:void(0)">Work</a></li>
+          <li><a href="javascript:void(0)">Skill</a></li>
         </ul>
       </nav>
     </header>
     <!-- header end-->
     <!-- section01 start -->
     <section id="container" class="section01">
-      <div class="title">
-        <h3 class="welcome">Welcome to the</h3>
-        <h2 class="portfolio">LeeJuHee<span class="red" style="color: rgb(255, 82, 82);">’s</span> Portfolio</h2>
+      <div class="section01_wrap">
+        <div class="title">
+          <h3>Welcome to the</h3>
+          <h2>LeeJuHee<span>’s</span> Portfolio</h2>
+        </div>
+        <img src="./img/puppy.png" alt="puppy img" class="puppy">
+        <img src="./img/notebook and puppys .png" alt="notebook and puppys img" class="nap">
       </div>
-      <img src="./img/puppy.png" alt="puppy img" class="puppy">
-      <img src="./img/notebook and puppys .png" alt="notebook and puppys img" class="nandp">
     </section>
     <!-- section01 end -->
     <!-- section02 start -->
-    <section class="section02">
-      <div class="cloud1">
-        <div class="eyes">
-          <div class="eye eye1">
-            <div class="pupil"></div>
-          </div>
-          <div class="eye eye2">
-            <div class="pupil"></div>
-          </div>
-        </div>
-      </div>
-      <img class="cloud2" src="./img/cloud2.png" alt="cloud2 img">
-    </section>
-    <!-- section02 end -->
-    <!-- section03 start -->
-    <section class="scroll section03">
-      <div id="korea" class="portfolio_wrap">
+    <section class="scroll section02">
+      <div>
         <div class="portfolio_inner">
-          <a href="./visitkorea/html/main.html"><img src="./img/korea.png" alt="visitkorea img" class="notebook"></a>
+          <a href="./visitkorea/html/main.html" target="_blank"><img src="./img/korea.png" alt="visitkorea img" class="notebook"><span class="skip">한국관광공사 바로가기</span></a>
           <div class="pf_txt">
-            <h2 class="pf_title">한국관광공사</h2>
-            <p class="pf_paragraph">
+            <h2>한국관광공사</h2>
+            <p>
               &nbsp;한국관광 브랜드의 창의적이고 매력적인 모습, 활기차고 다양한 모습을 영상과 다양한 콘텐츠를 넣어 새롭게 제작하였습니다.
             </p>
             <dl>
-              <dt>sub page</dt>
-              <dd>
-                <ul class="sub_ul">
-                  <li><a href="./visitkorea/html/gallery.html">갤러리,</a></li>
-                  <li><a href="./visitkorea/html/gallery_detail_page.html">갤러리 상세보기,</a></li>
-                  <li><a href="./visitkorea/html/join.html">회원가입</a></li>
-                </ul>
-              </dd>
               <dt>Viewport</dt>
-              <dd>데스크탑 </dd>
+              <dd>Desktop </dd>
               <dt>IE support</dt>
               <dd>IE9+</dd>
               <dt>UI/UX 디자인 방식</dt>
@@ -100,16 +90,24 @@
               <dt>제작 참여율</dt>
               <dd>100%</dd>
             </dl>
+            <div class="sub_page">
+              <h3>Sub page link <i class="fa-solid fa-angle-right fa"></i></h3>
+              <ul>
+                <li><a href="./visitkorea/html/gallery.html">&#35; 갤러리</a></li>
+                <li><a href="./visitkorea/html/gallery_detail_page.html">&#35; 갤러리 상세보기</a></li>
+                <li><a href="./visitkorea/html/join.html">&#35; 회원가입</a></li>
+              </ul>
+            </div>
             <ul class="skill_img_wrap">
-              <li class="skill_img skill_html">HTML<img src="./img/skill_html.png" alt="HTML img"></li>
-              <li class="skill_img skill_css">CSS<img src="./img/skill_css.png" alt="CSS img"></li>
-              <li class="skill_img skill_js">JavaScript<img src="./img/skill_js.png" alt="JavaScript img"></li>
-              <li class="skill_img skill_jq">jQuery<img src="./img/skill_jq.png" alt="jQuery img"></li>
+              <li>HTML<img src="./img/skill_html.png" alt="HTML img"></li>
+              <li>CSS<img src="./img/skill_css.png" alt="CSS img"></li>
+              <li>JavaScript<img src="./img/skill_js.png" alt="JavaScript img"></li>
+              <li>jQuery<img src="./img/skill_jq.png" alt="jQuery img"></li>
             </ul>
           </div>
         </div>
       </div>
-      <div id="jeju" class="portfolio_wrap">
+      <div>
         <div class="portfolio_inner">
           <div class="pf_txt">
             <h2 class="pf_title">제주도청</h2>
@@ -129,7 +127,7 @@
                 </ul>
               </dd>
               <dt>Viewport</dt>
-              <dd>데스크탑 </dd>
+              <dd>Desktop </dd>
               <dt>IE support</dt>
               <dd>IE10</dd>
               <dt>UI/UX 디자인 방식</dt>
@@ -144,7 +142,61 @@
               <li class="skill_img skill_jq">jQuery<img src="./img/skill_jq.png" alt="jQuery img"></li>
             </ul>
           </div>
-          <a href="./jeju/html/main.html"><img src="./img/jeju.png" alt="jejuLink img" class="notebook"></a>
+          <a href="./jeju/html/main.html" target="_blank"><img src="./img/jeju.png" alt="jejuLink img" class="notebook"></a>
+        </div>
+      </div>
+      <div>
+        <div class="portfolio_inner">
+          <a href="./worldshare/main.html" target="_blank"><img src="./img/worldshare.png" alt="jejuLink img" class="notebook"></a>
+          <div class="pf_txt">
+            <h2 class="pf_title">World Share</h2>
+            <p class="pf_paragraph">
+              &nbsp; 반응형 페이지를 월드쉐어의 디자인 컨셉에 맞추어서 디자인을 하였습니다.
+            </p>
+            <dl>
+              <dt>Viewport</dt>
+              <dd>Mobile, Tablet, Desktop</dd>
+              <dt>IE support</dt>
+              <dd>IE10</dd>
+              <dt>UI/UX 디자인 방식</dt>
+              <dd>Figma</dd>
+              <dt>제작 참여율</dt>
+              <dd>100%</dd>
+            </dl>
+            <ul class="skill_img_wrap">
+              <li class="skill_img skill_html">HTML<img src="./img/skill_html.png" alt="HTML img"></li>
+              <li class="skill_img skill_css">CSS<img src="./img/skill_css.png" alt="CSS img"></li>
+              <li class="skill_img skill_js">JavaScript<img src="./img/skill_js.png" alt="JavaScript img"></li>
+              <li class="skill_img skill_jq">jQuery<img src="./img/skill_jq.png" alt="jQuery img"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="portfolio_inner">
+          <div class="pf_txt">
+            <h2 class="pf_title">Market Kurly</h2>
+            <p class="pf_paragraph">
+              &nbsp; Market Kurly의 상품의 이름, 할인 전후 가격의 배치와 폰트크기를 변경함으로써 할인 후 가격이 시각적으로 더 잘 들어오게 하였습니다.
+            </p>
+            <dl>
+              <dt>Viewport</dt>
+              <dd>Mobile, Tablet, Desktop</dd>
+              <dt>IE support</dt>
+              <dd>IE10</dd>
+              <dt>UI/UX 디자인 방식</dt>
+              <dd>Figma</dd>
+              <dt>제작 참여율</dt>
+              <dd>100%</dd>
+            </dl>
+            <ul class="skill_img_wrap">
+              <li class="skill_img skill_html">HTML<img src="./img/skill_html.png" alt="HTML img"></li>
+              <li class="skill_img skill_css">CSS<img src="./img/skill_css.png" alt="CSS img"></li>
+              <li class="skill_img skill_js">JavaScript<img src="./img/skill_js.png" alt="JavaScript img"></li>
+              <li class="skill_img skill_jq">jQuery<img src="./img/skill_jq.png" alt="jQuery img"></li>
+            </ul>
+          </div>
+          <a href="./marketkurly/main.html" target="_blank"><img src="./img/marketkurly.png" alt="jejuLink img" class="notebook"></a>
         </div>
       </div>
     </section>
@@ -157,7 +209,7 @@
       </div>
       <ul class="skill_IMG_wrap">
         <li class="skill_IMG">
-          <a href="#" class="html">HTML<img src="./img/html.png" alt="html img"></a>
+          <a href="javascript:void(0)" class="html">HTML<img src="./img/html.png" alt="html img"></a>
           <div class="skill_wrap">
             <p>
               <span>HTML5</span><span>90%</span>
@@ -168,7 +220,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="css">CSS3<img src="./img/css.png" alt="css img"></a>
+          <a href="javascript:void(0)" class="css">CSS3<img src="./img/css.png" alt="css img"></a>
           <div class="skill_wrap">
             <p>
               <span>CSS3</span><span>80%</span>
@@ -179,7 +231,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="js">JavaScript<img src="./img/js.png" alt="js img"></a>
+          <a href="javascript:void(0)" class="js">JavaScript<img src="./img/js.png" alt="js img"></a>
           <div class="skill_wrap">
             <p>
               <span>JavaScript</span><span>60%</span>
@@ -190,7 +242,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="jq">jQuery<img src="./img/jq.png" alt="jq img"></a>
+          <a href="javascript:void(0)" class="jq">jQuery<img src="./img/jq.png" alt="jq img"></a>
           <div class="skill_wrap">
             <p>
               <span>jQuery</span><span>60%</span>
@@ -201,7 +253,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="sass">Sass<img src="./img/sass.png" alt="sass img"></a>
+          <a href="javascript:void(0)" class="sass">Sass<img src="./img/sass.png" alt="sass img"></a>
           <div class="skill_wrap">
             <p>
               <span>Sass</span><span>70%</span>
@@ -212,7 +264,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="vue">Vue<img src="./img/vue.png" alt="vue img"></a>
+          <a href="javascript:void(0)" class="vue">Vue<img src="./img/vue.png" alt="vue img"></a>
           <div class="skill_wrap">
             <p>
               <span>Vue</span><span>50%</span>
@@ -223,7 +275,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="bootstrap">Bootstrap<img src="./img/bootstrap.png" alt="bootstrap img"></a>
+          <a href="javascript:void(0)" class="bootstrap">Bootstrap<img src="./img/bootstrap.png" alt="bootstrap img"></a>
           <div class="skill_wrap">
             <p>
               <span>Bootstrap</span><span>90%</span>
@@ -234,7 +286,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="github">Git/Github<img src="./img/git.png" alt="github img"></a>
+          <a href="javascript:void(0)" class="github">Git/Github<img src="./img/git.png" alt="github img"></a>
           <div class="skill_wrap">
             <p>
               <span>Git/Github</span><span>70%</span>
@@ -245,7 +297,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="figma">Figma<img src="./img/figma.png" alt="Figma img"></a>
+          <a href="javascript:void(0)" class="figma">Figma<img src="./img/figma.png" alt="Figma img"></a>
           <div class="skill_wrap">
             <p>
               <span>Figma</span><span>95%</span>
@@ -256,7 +308,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="xd">XD<img src="./img/xd.png" alt="xd img"></a>
+          <a href="javascript:void(0)" class="xd">XD<img src="./img/xd.png" alt="xd img"></a>
           <div class="skill_wrap">
             <p>
               <span>XD</span><span>90%</span>
@@ -267,7 +319,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="illustrator">Illustrator<img src="./img/illustrator.png" alt="illustrator img"></a>
+          <a href="javascript:void(0)" class="illustrator">Illustrator<img src="./img/illustrator.png" alt="illustrator img"></a>
           <div class="skill_wrap">
             <p>
               <span>Illustrator</span><span>70%</span>
@@ -278,7 +330,7 @@
           </div>
         </li>
         <li class="skill_IMG">
-          <a href="#" class="photoshop">Photoshop<img src="./img/photoshop.png" alt="photoshop img"></a>
+          <a href="javascript:void(0)" class="photoshop">Photoshop<img src="./img/photoshop.png" alt="photoshop img"></a>
           <div class="skill_wrap">
             <p>
               <span>Photoshop</span><span>65%</span>
