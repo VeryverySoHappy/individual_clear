@@ -408,17 +408,15 @@
 .skill_box li {
   position: relative;
   display: inline-block;
-  width: 75px;
-  height: 75px;
-  border-radius: 100%;
-  text-indent: -999em;
+  width: 80px;
+  height: 80px;
 }
 .skill_box li img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 75px;
-  height: 75px;
+  width: 100%;
+  height: 100%;
   border-radius: 100%;
   border: 3px solid #000;
 }
@@ -451,7 +449,17 @@
     display: block;
     margin-top: 50px;
   }
-
+  .section02_item_box>li h2 {
+    font-size: 2.0rem;
+    font-weight: normal;
+    padding-top: 5%;
+  }
+  .section02_item_box>li p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    padding: 5% 0 2% 0;
+  }
   .section02_item_box>li:nth-child(2n) {
     flex-direction: row;
   }
@@ -467,6 +475,15 @@
 
   .section02_item_box .text_box {
     width: 100%;
+  }
+  .section02_item_box>li .hash_tag {
+    padding-top: 0%;
+  }
+  .skill_box li {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
   }
 }
 
