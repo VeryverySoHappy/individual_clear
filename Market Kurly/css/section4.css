@@ -1,0 +1,13 @@
+.section04 .inner {
+  border: 1px solid #000;
+}
+.section04 .dinner_wrap {
+  display: flex;
+}
+.dinnerL {
+  width: 600px;
+}
+.dinnerR {
+  border: 1px solid #000;
+  width: 600px;
+}

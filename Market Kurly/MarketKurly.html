@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/header/logo_icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/common.css">
+  <link rel="stylesheet" type="text/css" href="./css/layout.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <title>마켓컬리 &#58;&#58; 내일의 장보기, 마켓컬리</title>
+</head>
+
+<body>
+  <header>
+    <div class="headerTop">
+      <ul>
+        <li><a href="javascript:void(0)" class="headerTop_li purple">로그인</a></li>
+        <li><a href="javascript:void(0)" class="headerTop_li">회원가입</a></li>
+        <li><a href="javascript:void(0)" class="headerTop_li">고객센터</a></li>
+      </ul>
+    </div>
+    <div class="headerM">
+      <div class="headerL">
+        <a href="javascript:void(0)" class="logo">
+          <img src="./img/header/logo.png" alt="MARKET Kurly logo" width="105px" height="79px">
+          <h1 class="skip">MARKET Kurly</h1>
+        </a>
+        <!-- delivery start -->
+        <div class="delivery">
+          <a href="#" class="deliveryBtn">
+            <span><span class="purple">샛별·택배</span> 배송안내 <i class="fa-solid fa-angle-right fa"></i></span>
+          </a>
+          <!-- deliveryPop start -->
+          <div class="deliveryPop" id="deliveryPop">
+            <a href="#" id="closeBtn" class="closeBtn">
+              <img src="./img/header/btnPopClose.png" alt="">
+            </a>
+            <h2 class="delivery_h2">
+              주문부터 배송까지<br>
+              <b>한 눈에 보기</b>
+            </h2>
+            <table>
+              <tr>
+                <th>
+                  수도권<br>
+                  충청
+                </th>
+                <td>샛별배송</td>
+                <td>
+                  <strong>오늘 밤 11시 전</strong> 주문<br>
+                  <strong>내일 아침 7시 전</strong> 문 앞 도착
+                </td>
+              </tr>
+              <tr>
+                <th rowspan="2">대구</th>
+                <td>샛별배송</td>
+                <td>
+                  <strong>오늘 밤 11시 전</strong> 주문<br>
+                  <strong>내일 아침 7시 전</strong> 문 앞 도착
+                </td>
+              </tr>
+              <tr>
+                <td>택배배송</td>
+                <td>
+                  <strong>오늘 밤 8시~10시 전</strong> 주문<br>
+                  <strong>내일 밤 12시 전</strong> 문 앞 도착
+                </td>
+              </tr>
+              <tr>
+                <th rowspan="2">
+                  부산<br>
+                  울산
+                </th>
+                <td>샛별배송</td>
+                <td>
+                  <strong>오늘 밤 6시 전</strong> 주문<br>
+                  <strong>내일 아침 8시 전</strong> 문 앞 도착
+                </td>
+              </tr>
+              <tr>
+                <td>택배배송</td>
+                <td>
+                  <strong>오늘 밤 6시~10시 전</strong> 주문<br>
+                  <strong>내일 밤 12시 전</strong> 문 앞 도착
+                </td>
+              </tr>
+              <tr>
+                <th>그 외 지역</th>
+                <td>택배배송</td>
+                <td>
+                  <strong>오늘 밤 10시 전</strong> 주문<br>
+                  <strong>내일 밤 12시 전</strong> 문 앞 도착
+                </td>
+              </tr>
+            </table>
+            <p>*일부 지역의 경우, 주문시간에 따라 배송방법이 달라집니다.</p>
+            <div class="deliverySelect">
+              <a href="#" class="deliveryNo deli closeBtn">취소</ㅁ>
+                <a href="#" class="deliveryYes deli closeBtn">확인</a>
+            </div>
+          </div>
+        </div>
+        <!-- deliveryPop end -->
+      </div>
+    </div>
+    <div class="gnb">
+      <ul class="gnb_l">
+        <li class="allMenu">
+          <a href="#" id="subMenu"><i class="fa-solid fa-bars fa"></i>전체 카테고리</a>
+          <!-- sub_menu start -->
+          <div class="sub_menu">
+            <ul class="sub">
+              <li class="sub_l">
+                <a href="#" class="sub_title">채소</a>
+                <ul>
+                  <li><a href="#">친환경</a></li>
+                  <li><a href="#">고구마·감자·당근</a></li>
+                  <li><a href="#">시금치·쌈채소·나물</a></li>
+                </ul>
+              </li>
+              <li class="sub_l">
+                <a href="#" class="sub_title">과일·견과·쌀</a>
+                <ul>
+                  <li><a href="#">친환경</a></li>
+                  <li><a href="#">제철과일</a></li>
+                  <li><a href="#">국산과일</a></li>
+                  <li><a href="#">수입과일</a></li>
+                </ul>
+              </li>
+              <li class="sub_l">
+                <a href="#" class="sub_title">수산·해산·건어물</a>
+                <ul>
+                  <li><a href="#">제철수산</a></li>
+                  <li><a href="#">생선류</a></li>
+                  <li><a href="#">굴비·반건류</a></li>
+                  <li><a href="#">오징어·낙지·문어</a></li>
+                  <li><a href="#">새우·게·랍스터</a></li>
+                </ul>
+              </li>
+              <li class="sub_l">
+                <a href="#" class="sub_title">국·반찬·메인요리</a>
+                <ul>
+                  <li><a href="#">국·탕·찌개</a></li>
+                  <li><a href="#">밑반찬</a></li>
+                  <li><a href="#">김치·젓갈·장류</a></li>
+                </ul>
+              </li>
+              <li class="sub_l">
+                <a href="#" class="sub_title">국·반찬·메인요리</a>
+                <ul>
+                  <li><a href="#">국·탕·찌개</a></li>
+                  <li><a href="#">밑반찬</a></li>
+                  <li><a href="#">김치·젓갈·장류</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- sub_menu end -->
+        </li>
+        <li><a href="#">신상품</a></li>
+        <li><a href="#">베스트</a></li>
+        <li><a href="#" class="circle">알뜰쇼핑</a></li>
+        <li><a href="#" class="circle">특가/혜택</a></li>
+      </ul>
+      <ul class="gnb_r">
+        <li class="gnb_search">
+          <form method="post" name="searchfrm" id="search" class="search">
+            <input type="text" class="input_val" name="inval" placeholder="🎉 SPRING FESTA  최대 55% 할인" />
+            <input type="submit" value="검색" />
+          </form>
+          <div class="search_sub">
+            <div class="search_subT">
+              <div class="search_subTL">
+                <div class="search_subTitle">
+                  <h3>최근 검색어</h3>
+                  <button>전체삭제</button>
+                </div>
+                <ul>
+                  <li>최근 검색내역이 없습니다 </li>
+                </ul>
+              </div>
+              <div class="search_subTR">
+                <div class="search_subTitle">
+                  <h3>인기 검색어</h3>
+                  <p>22.04.20기준</p>
+                </div>
+                <ul>
+                  <li><span class="rank">1</span>두부</li>
+                  <li><span class="rank">2</span>김</li>
+                  <li><span class="rank">3</span>계란</li>
+                  <li><span class="rank">4</span>무</li>
+                  <li><span class="rank">5</span>쌀</li>
+                  <li><span class="rank">6</span>우유</li>
+                  <li><span class="rank">7</span>양파</li>
+                  <li><span class="rank">8</span>현미</li>
+                  <li><span class="rank">9</span>떡</li>
+                  <li><span class="rank">10</span>사과</li>
+                </ul>
+              </div>
+            </div>
+            <div class="search_subB">
+              <h3>진행중인 기획전</h3>
+              <div class="searchImg">
+                <span class="searchImgL">
+                  <img src="./img/header/search1.jpg" alt="">
+                  <b>이맘때 참외</b>
+                </span>
+                <span class="searchImgR">
+                  <img src="./img/header/search2.jpg" alt="">
+                  <b>4월 이맘때 이 물품</b>
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#" class="gnb_map">배송지 등록하기</a></li>
+        <li><a href="#" class="gnb_wish">위시리스트</a></li>
+        <li class="cart_wrap">
+          <a href="#">
+            <div class="cart">장바구니</div>
+            <div class="cartCount">0</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <section class="section01">
+    <div class="slider">
+      <h2 class="skip">한살림 장보기 메인</h2>
+      <div class="stopPlay">
+        <a href="#" class="btn_stop"><span class="skip">알림판정지</span></a>
+        <a href="#" class="btn_play"><span class="skip">알림판재생</span></a>
+      </div>
+      <div class="count_N">
+        <span class="count">1</span><span class="slider_total">/13</span>
+      </div>
+      <a href="#" class="moreImg"><img src="./img/section01/visualMore.png" alt=""></a>
+      <div class="control">
+        <a href="#" class="btn_left">알림판이전보기</a>
+        <a href="#" class="btn_right">알림판다음보기</a>
+      </div>
+      <div class="slider_list">
+        <ul>
+          <li class="on"><a href="#"><img src="./img/section01/main1.webp" alt=""></a></li>
+          <li><a href="#"><img src="./img/section01/main2.webp" alt=""></a></li>
+          <li><a href="#"><img src="./img/section01/main3..webp" alt=""></a></li>
+          <li><a href="#"><img src="./img/section01/main4.jfif" alt=""></a></li>
+          <li><a href="#"><img src="./img/section01/main5.webp" alt=""></a></li>
+          <li><a href="#"><img src="./img/section01/main6.webp" alt=""></a></li>
+          <li><a href="#"><img src="./img/section01/main7.webp" alt=""></a></li>
+          <li><a href="#"><img src="./img/section01/main8.jfif" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section02">
+    <div class="inner">
+      <a href="#">
+        <p class="subtitle">SPRING FESTA</p>
+        <h2>인기 급상승<i class="fa-solid fa-angle-right fa"></i></h2>
+        <p class="explain">지금 컬러 고객님이 가장 많이 선택한 상품은?</p>
+      </a>
+      <div class="slider_wrap">
+        <input type="radio" name="slide1" id="slide1_1" checked>
+        <input type="radio" name="slide1" id="slide1_2">
+        <input type="radio" name="slide1" id="slide1_3">
+        <div class="slide">
+          <div class="slider_inner">
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods1.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[바른식]부산 조방낙지 낙곱새(2인)</h3>
+              <p class="price">17,900원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods2.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[닥터하우스] 자담 편백나무 찜기 2단</h3>
+              <p class="price">299,000원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods3.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[Better me] 닭가슴살 큐브 6종</h3>
+              <p class="price">1,600원</p>
+              <span class="tag">Kurly Only</span>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods4.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[하코야] 살얼음 동동 냉메밀 소바</h3>
+              <del class="discount">7,800원</del>
+              <p class="price"><span class="percent">10%</span>7,020원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods5.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[글로리] 싱가포르 설탕이 없는 카야잼</h3>
+              <p class="price">5,900원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods6.jpeg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[그녀의빵공장] 소금빵</h3>
+              <p class="price">2,900원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods7.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[석관동 떡볶이] 오리지널 떡볶이</h3>
+              <del class="discount">5,500원</del>
+              <p class="price"><span class="percent">10%</span>4,950원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods8.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">청도 산딸기 250g</h3>
+              <del class="discount">14,900원</del>
+              <p class="price"><span class="percent">27%</span>10,877원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods9.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[가농바이오] 비타플러스에그 무항생제 1+등급 특란 10구</h3>
+              <del class="discount">4,200원</del>
+              <p class="price"><span class="percent">7%</span>3,906원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods10.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[해통령] 육수한알 진한 맛</h3>
+              <del class="discount">8,980원</del>
+              <p class="price"><span class="percent">4%</span>8,570원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods11.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[입장권] 휘닉스 평창 블루캐니언 BLUE시즌 연간이용권 (단품/1인)</h3>
+              <del class="discount">148,500원</del>
+              <p class="price"><span class="percent">8%</span>135,900원</p>
+            </a>
+            <a href="#" class="goods">
+              <div href="#" class="imgWrap">
+                <img src="./img/section02/goods12.jpg" alt="" class="goodsImg">
+                <div class="state">BEST</div>
+                <button type="checkbox" class="cartPlus">장바구니</button>
+              </div>
+              <h3 class="name">[창화당] 대구식 납작만두 300g (15g x 20입)</h3>
+              <del class="discount">4,400원</del>
+              <p class="price"><span class="percent">7%</span>4,092원</p>
+            </a>
+
+          </div>
+        </div>
+        <div class="slideBtn">
+          <label for="slide1_1">1</label>
+          <label for="slide1_2">2</label>
+          <label for="slide1_3">3</label>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section03">
+    <div class="inner">
+      <a href="#">
+        <p class="subtitle">Kurly's Keyword</p>
+        <h2><strong>키워드</strong>로 보는 마켓컬리 <i class="fa-solid fa-angle-right fa"></i></h2>
+      </a>
+      <div class="wrap">
+        <ul class="product_list">
+          <li>
+            <a href="#" class="product_title"># 후기 1,000개 돌파 상품</a>
+            <div class="product">
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods1.jpg" alt="" class="goodsImg">
+                  <div class="state">BEST</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">페루산 애플청포도 500g</h3>
+                <del class="discount">11,900원</del>
+                <p class="price"><span class="percent">10%</span>10,710원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods2.jpg" alt="" class="goodsImg">
+                  <div class="state">BEST</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[Kurly's] 국산콩 두부 500g</h3>
+                <p class="price">2,950원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods3.jpeg" alt="" class="goodsImg">
+                  <div class="state">BEST</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[MPARK] 블랙라벨 고당도 오렌지 1.3kg (4입/특대과)</h3>
+                <del class="discount">10,900원</del>
+                <p class="price"><span class="percent">20%</span>8,720원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods4.jpg" alt="" class="goodsImg">
+                  <div class="state">BEST</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[라라스윗] 생우유 모나카 (140ml * 4개입)</h3>
+                <p class="price">9,400원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods5.jpg" alt="" class="goodsImg">
+                  <div class="state">BEST</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[로컬식탁] 부산식 물떡&어묵꼬치</h3>
+                <p class="price">5,900원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods6.jpeg" alt="" class="goodsImg">
+                  <div class="state">BEST</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[이비에] KF94 새부리형 마스크 21종</h3>
+                <del class="discount">7,900원</del>
+                <p class="price"><span class="percent">25%</span>5,900원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods7.jpeg" alt="" class="goodsImg">
+                  <div class="state">BEST</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[마이하노이] 매운 고기폭탄 쌀국수</h3>
+                <p class="price">7,900원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods8.jpg" alt="" class="goodsImg">
+                  <div class="state">BEST</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[백산수] 생수 (2L X 6개)</h3>
+                <p class="price">5,700원</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="product_title"># 지금 가장 핫한 상품</a>
+            <div class="product">
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods9.jpg" alt="" class="goodsImg">
+                  <div class="state">HOT</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[자연실록] 무항생제 닭 다리살 (정육) 500g</h3>
+                <p class="price">7,900원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods10.jpeg" alt="" class="goodsImg">
+                  <div class="state">HOT</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[정다운] 허브를담은훈제오리 200g x 2팩</h3>
+                <p class="price">8,900원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods11.jpg" alt="" class="goodsImg">
+                  <div class="state">HOT</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[하코야] 돈마호크카츠</h3>
+                <del class="discount">9,900원</del>
+                <p class="price"><span class="percent">15%</span>8,415원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods12.jpg" alt="" class="goodsImg">
+                  <div class="state">HOT</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[로컬식탁] 부산 상국이네 떡볶이</h3>
+                <p class="price">7,800원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods13.jpg" alt="" class="goodsImg">
+                  <div class="state">HOT</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[요플레] ONLY2 플레인 요거트 대용량 1800ml</h3>
+                <p class="price">7,980원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods14.jpg" alt="" class="goodsImg">
+                  <div class="state">HOT</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[Kurly's] 동물복지 유정란 30구</h3>
+                <p class="price">13,000원</p>
+                <span class="tag">Kurly Only</span>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods15.jpeg" alt="" class="goodsImg">
+                  <div class="state">HOT</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[대흥] 간편하게 손질된 데친 참문어 400g (냉장)</h3>
+                <del class="discount">18,500원</del>
+                <p class="price"><span class="percent">15%</span>15,725원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods16.jpeg" alt="" class="goodsImg">
+                  <div class="state">HOT</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[진실된손맛] 소고기 샤브탕</h3>
+                <p class="price">7,600원</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="product_title"># 높은 조회수를 기록한 신상품</a>
+            <div class="product">
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods17.jpg" alt="" class="goodsImg">
+                  <div class="state">NEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[선물세트] 미자언니네 방앗간 고급 단자 세트</h3>
+                <del class="discount">32,000원</del>
+                <p class="price"><span class="percent">35%</span>20,800원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods18.jpeg" alt="" class="goodsImg">
+                  <div class="state">NEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[브룩클린688] 호주산 목초육 치마살 구이용 300g (냉장)</h3>
+                <del class="discount">13,900원</del>
+                <p class="price"><span class="percent">25%</span>10,425원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods19.jpg" alt="" class="goodsImg">
+                  <div class="state">NEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">GAP 카라향 1kg</h3>
+                <del class="discount">10,900원</del>
+                <p class="price"><span class="percent">20%</span>8,720원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods20.jpg" alt="" class="goodsImg">
+                  <div class="state">NEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">달래 60g</h3>
+                <del class="discount">2,690원</del>
+                <p class="price"><span class="percent">20%</span>2,152원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods21.jpg" alt="" class="goodsImg">
+                  <div class="state">NEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[우유공식] 무항생제 우유 900ml</h3>
+                <del class="discount">2,900원</del>
+                <p class="price"><span class="percent">20%</span>2,384원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods22.webp" alt="" class="goodsImg">
+                  <div class="state">NEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[YOZM] 플레인 그릭요거트 2종</h3>
+                <del class="discount">3,900원</del>
+                <p class="price"><span class="percent">20%</span>3,120원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods23.jpg" alt="" class="goodsImg">
+                  <div class="state">NEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">사과 1.2kg (4~5입)</h3>
+                <del class="discount">8,990원</del>
+                <p class="price"><span class="percent">20%</span>7,192원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods24.jpeg" alt="" class="goodsImg">
+                  <div class="state">NEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">친환경 오이 2입</h3>
+                <del class="discount">3,490원</del>
+                <p class="price"><span class="percent">20%</span>2,792원</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="product_title"># 마감세일</a>
+            <div class="product">
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods25.jpeg" alt="" class="goodsImg">
+                  <div class="state">MD</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">대저 짭짤이 토마토 600g (2S, 로얄과)</h3>
+                <del class="discount">13,900원</del>
+                <p class="price"><span class="percent">20%</span>11,120원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods26.jpg" alt="" class="goodsImg">
+                  <div class="state">MD</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[kim's butcher] 호주산 목초육 안심 찹스테이크 250g</h3>
+                <del class="discount">17,900원</del>
+                <p class="price"><span class="percent">20%</span>14,320원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods27.jpg" alt="" class="goodsImg">
+                  <div class="state">MD</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[이호] 새꼬막 1kg (생물)</h3>
+                <del class="discount">8,900원</del>
+                <p class="price"><span class="percent">20%</span>7,120원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods28.jpg" alt="" class="goodsImg">
+                  <div class="state">MD</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[상하목장] 유기농 베이비 요구르트 3종 (85g X 4개)</h3>
+                <del class="discount">3,580원</del>
+                <p class="price"><span class="percent">20%</span>2,860원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods29.jpeg" alt="" class="goodsImg">
+                  <div class="state">MD</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">저탄소 GAP 사과 2.5kg (8~12입)</h3>
+                <del class="discount">13,900원</del>
+                <p class="price"><span class="percent">20%</span>11,120원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods30.jpg" alt="" class="goodsImg">
+                  <div class="state">MD</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[마이셰프] 사천식 마라우육면</h3>
+                <del class="discount">11,900원</del>
+                <p class="price"><span class="percent">20%</span>9,520원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods31.jpg" alt="" class="goodsImg">
+                  <div class="state">MD</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[김구원선생] 우삼겹 순두부찌개</h3>
+                <del class="discount">7,950원</del>
+                <p class="price"><span class="percent">15%</span>6,757원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods32.jpg" alt="" class="goodsImg">
+                  <div class="state">MD</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[Kurly's] 시원한 배추김치</h3>
+                <del class="discount">10,800원</del>
+                <p class="price"><span class="percent">15%</span>9,180원</p>
+                <span class="tag">Kurly Only</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="product_title"># 30만원 쓰는 화이트의 선택</a>
+            <div class="product">
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods33.jpg" alt="" class="goodsImg">
+                  <div class="state">white</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">친환경 시금치 200g</h3>
+                <del class="discount">2,700원</del>
+                <p class="price"><span class="percent">15%</span>2,295원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods34.jpg" alt="" class="goodsImg">
+                  <div class="state">white</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[Kurly's] 동물복지 유정란 10구</h3>
+                <p class="price">4,950원</p>
+                <span class="tag">Kurly Only</span>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods35.jpg" alt="" class="goodsImg">
+                  <div class="state">white</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[푸드어셈블] K-투움바 파스타 밀키트 (2인)</h3>
+                <del class="discount">13,900원</del>
+                <p class="price"><span class="percent">15%</span>11,815원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods36.jpeg" alt="" class="goodsImg">
+                  <div class="state">white</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">조각 양배추 500g</h3>
+                <p class="price">1,990원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods37.jpg" alt="" class="goodsImg">
+                  <div class="state">white</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[Kurly's] 한돈 떡갈비 (120g*2입)</h3>
+                <p class="price">4,800원</p>
+                <span class="tag">Kurly Only</span>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods38.jpg" alt="" class="goodsImg">
+                  <div class="state">white</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[삼립] 클래식 우유 식빵</h3>
+                <p class="price">2,200원</p>
+                <span class="tag">Kurly Only</span>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods39.jpg" alt="" class="goodsImg">
+                  <div class="state">white</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[사조해표] 살코기 플러스 참치 100g</h3>
+                <p class="price">1,350원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods40.jpg" alt="" class="goodsImg">
+                  <div class="state">white</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[매일] 바이오 드링킹 요구르트 250mL 3종</h3>
+                <p class="price">1,200원</p>
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="product_title"># MD의 추천</a>
+            <div class="product">
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods41.jpg" alt="" class="goodsImg">
+                  <div class="state">REVIEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[Better me] 백색 반숙란 10구</h3>
+                <del class="discount">5,900원</del>
+                <p class="price"><span class="percent">10%</span>5,310원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods42.jpg" alt="" class="goodsImg">
+                  <div class="state">REVIEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">표고버섯 5~6입 100g</h3>
+                <p class="price">2,490원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods43.jpg" alt="" class="goodsImg">
+                  <div class="state">REVIEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[상하목장] 유기농 베이비 요구르트 3종 (85g X 4개)</h3>
+                <del class="discount">3,580원</del>
+                <p class="price"><span class="percent">20%</span>2,860원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods44.jpeg" alt="" class="goodsImg">
+                  <div class="state">REVIEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[존쿡 델리미트] 고소한 비엔나 소시지 255g</h3>
+                <del class="discount">4,280원</del>
+                <p class="price"><span class="percent">15%</span>3,638원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods45.webp" alt="" class="goodsImg">
+                  <div class="state">REVIEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[상하목장] 유기농 우유 900mL</h3>
+                <p class="price">4,580원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods46.jpeg" alt="" class="goodsImg">
+                  <div class="state">REVIEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[창억] 찰떡 3종</h3>
+                <p class="price">7,500원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods47.webp" alt="" class="goodsImg">
+                  <div class="state">REVIEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">[매일] 매일우유 후레쉬팩 오리지널 900mL</h3>
+                <del class="discount">2,610원</del>
+                <p class="price"><span class="percent">7%</span>2,410원</p>
+              </a>
+              <a href="#" class="goods">
+                <div href="#" class="imgWrap">
+                  <img src="./img/section03/goods48.jpg" alt="" class="goodsImg">
+                  <div class="state">REVIEW</div>
+                  <button type="checkbox" class="cartPlus">장바구니</button>
+                </div>
+                <h3 class="name">양송이버섯 140g</h3>
+                <del class="discount">3,990원</del>
+                <p class="price"><span class="percent">7%</span>3,690원</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <span class="leftBtn btn"><a href="#">왼쪽</a></span>
+      <span class="rightBtn btn"><a href="#">오른쪽</a></span>
+    </div>
+  </section>
+  <footer>
+    <div class="footer_inner">
+      <div class="footer">
+        <span class="footer_top">
+          <p>고객행복센터</p>
+          <p>1644-1107</p>
+          <div>
+            <dl>
+              <dt>365고객센터</dt>
+              <dd>오전7시~오후7시</dd>
+            </dl>
+            <dl>
+              <dt>24시간 접수 가능</dt>
+              <dd>고객센터 운영시간에 순차적으로 답변해드리겠습니다.</dd>
+            </dl>
+            <dl>
+              <dt>이메일</dt>
+              <dd>help@kurlycorp.com</dd>
+            </dl>
+            <p>비회원의 경우 메일로 문의 바랍니다.</p>
+          </div>
+        </span>
+        <span class="footer_top">
+          <p>자주 묻는 질문</p>
+          <ul>
+            <li><a href="javascript:void(0)">조합원정보 <i class="fa-solid fa-chevron-right fa"></i></a></li>
+            <li><a href="javascript:void(0)">주문/결제 <i class="fa-solid fa-chevron-right fa"></i></a></li>
+            <li><a href="javascript:void(0)">취소/반품/환불 <i class="fa-solid fa-chevron-right fa"></i></a></li>
+            <li><a href="javascript:void(0)">공급 <i class="fa-solid fa-chevron-right fa"></i></a></li>
+            <li><a href="javascript:void(0)">이용안내 <i class="fa-solid fa-chevron-right fa"></i></a></li>
+            <li><a href="javascript:void(0)">기타 <i class="fa-solid fa-chevron-right fa"></i></a></li>
+          </ul>
+        </span>
+      </div>
+    </div>
+    <div>
+      <ul class="footer_mid">
+        <li><a href="javascript:void(0)">컬리소개</a></li>
+        <li><a href="javascript:void(0)">컬리소개영상</a></li>
+        <li><a href="javascript:void(0)">인재채용</a></li>
+        <li><a href="javascript:void(0)">이용약관</a></li>
+        <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+        <li><a href="javascript:void(0)">이용안내</a></li>
+      </ul>
+    </div>
+    <div class="footer_bot">
+      <span>
+        <dl>
+          <dt>범인명 &#40;상호&#41; &#58;</dt>
+          <dd>주식회사 컬리</dd>
+        </dl>
+        <dl>
+          <dt>사업자등록번호 &#58;</dt>
+          <dd>261-81-23567</dd>
+        </dl>
+        <dl>
+          <dt>통신판매업 &#58;</dt>
+          <dd>제 2018-서울강남-01646호</dd>
+        </dl>
+        <dl>
+          <dt>개인정보보호책임자	&#58;</dt>
+          <dd>이원준</dd>
+        </dl>
+        <dl>
+          <dt>주소	&#58;</dt>
+          <dd>서울특별시 강남구 태헤란로 133, 18층(역삼동)</dd>
+        </dl>
+      </span>
+      <span class="footer_sns">
+        <ul>
+          <li><a href="javascript:void(0)">instar</a></li>
+          <li><a href="javascript:void(0)">facebook</a></li>
+          <li><a href="javascript:void(0)">blog</a></li>
+          <li><a href="javascript:void(0)">naverpost</a></li>
+          <li><a href="javascript:void(0)">youtube</a></li>
+        </ul>
+      </span>
+    </div>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="./js/header.js"></script>
+<script src="./js/main.js"></script>
+
+</html>

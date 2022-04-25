@@ -1,0 +1,307 @@
+.slider {
+  position: relative;
+  width: 1900px;
+  height: 370px;
+  margin: 0 auto;
+}
+.stopPlay .btn_stop,
+.stopPlay .btn_play {
+  position: absolute;
+  bottom: 28px;
+  left: 19%;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+.stopPlay .btn_stop {background: url(../img/section01/visualPlay.png) no-repeat center top;}
+.stopPlay .btn_play {
+  background: url(../img/section01/visualPlay.png) no-repeat center bottom;
+  display: none;
+}
+.count_N {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: absolute;
+  bottom: 28px;
+  left: 21%;
+  padding: 6px 10px;
+  border-radius: 50px 0 0 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+.moreImg {
+  position: absolute;
+  bottom: 25px;
+  left: 24%;
+}
+.control .btn_left {
+  background: url(../img/section01/visualArrP.png) no-repeat center bottom;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  left: 19%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  text-indent: -9999px;
+}
+.control .btn_left:hover,
+.control .btn_left:active {
+  background: url(../img/section01/visualArrP.png) no-repeat center top;
+}
+.control .btn_right {
+  background: url(../img/section01/visualArrN.png) no-repeat center bottom;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  right: 19%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  text-indent: -9999px;
+}
+.control .btn_right:hover,
+.control .btn_right:active {background: url(../img/section01/visualArrN.png) no-repeat center top;}
+.slider_list {
+  overflow: hidden;
+  width: 1900px;
+  height: 370px;
+}
+.slider_list ul {
+  position: relative;
+  z-index: -1;
+}
+.slider_list ul li {
+  width: 1900px;
+  height: 370px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* main end */
+/* section02 start*/
+.subtitle {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color:#5f0080;
+}
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+.explain {
+  text-align: center;
+  color: #999;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.section02 {padding: 100px 0;}
+.section02 .inner {
+  width: 1199px;
+  height: 700px;
+  margin: 0 auto;
+}
+.section02 .slider_wrap {margin-top: 45px}
+input[name=slide1] {display: none;}
+.slide {
+  position: relative;
+  width: 1200px;
+  height: 520px;
+  overflow: hidden;
+}
+.slider_inner {
+  position: absolute;
+  width: 3600px;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  display: flex;
+}
+input[id=slide1_1]:checked ~ .slide .slider_inner {left: 0;}
+input[id=slide1_2]:checked ~ .slide .slider_inner {left: -1200px;}
+input[id=slide1_3]:checked ~ .slide .slider_inner {left: -2400px;}
+input[id=slide1_1]:checked ~ .slideBtn label[for=slide1_1],
+input[id=slide1_2]:checked ~ .slideBtn label[for=slide1_2],
+input[id=slide1_3]:checked ~ .slideBtn label[for=slide1_3]{
+  width: 40px;
+  height: 15px;
+  border-radius: 30px;
+  background: #60008075;
+}
+.goods {
+  display: inline-block;
+  width: 280px;
+  height: 500px;
+  margin-right: 20px;
+  position: relative;
+}
+.goods .state {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  width: 70px;
+  height: 85px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 85px;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #5f0080;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: .5s;
+}
+.imgWrap:hover .state{
+  position: absolute;
+  transform: translateY(0);
+  opacity: 1;
+}
+.slideBtn {
+  width: 120px;
+  margin: 0 auto;
+}
+.slideBtn label {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #cacaca;
+  text-indent: -9999px;
+}
+.imgWrap {
+  position: relative;
+  width: 280px;
+  height: 320px;
+  overflow: hidden;
+}
+.imgWrap img{
+  width: 280px;
+  height: 320px;
+  object-fit: cover;
+}
+.goodsImg {
+  width: 300px;
+  height: 320px;
+  object-fit: none;
+  transition: all 0.3s ease-in-out;
+}
+.goodsImg:hover  {transform: scale(1.02)}
+.name {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.5em;
+  padding: 10px 0;
+}
+.discount {
+  font-size: 13px;
+  padding-right: 150px;
+  color: #999;
+}
+.price {font-size: 22px;}
+.percent {
+  margin-right: 10px;
+  color: rgb(253, 150, 15);
+  font-weight: bold;
+}
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-top: 15px;
+  color: #5f0080;
+}
+.cartPlus {
+  background: url(../img/header/cart.svg) no-repeat 0 0;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  border: none;
+  display: inline-block;
+  text-indent: -9999px;
+}
+.cartPlus:hover,
+.cartPlus:active {
+  background: url(../img/header/cart_hover.svg) no-repeat 0, 30px;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+}
+/* section02 end */
+
+/* section03 start */
+.section03 {
+  width: 1200px;
+  height: 1400px;
+  position: relative;
+  box-sizing: border-box;
+  margin: 50px auto;
+  padding-top: 30px;
+  overflow: hidden;
+}
+.section03 h2 {
+  margin-bottom: 90px;
+}
+.product_list {
+  width: 1200px;
+  height: 1000px;
+  position: relative;
+  margin: 50px auto 100px auto;
+}
+.product_list li {float: left;}
+.product_title {
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px 15px;
+  background: #f5f5f5;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+.product {
+  width: 1200px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.product .goods {float: left;}
+.btn {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-top: 1px solid #222;
+  border-left: 1px solid #222;
+  position: absolute;
+  top: 50%;
+  z-index: 999px;
+}
+.btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999em;
+}
+.leftBtn {
+  left: 50px;
+  margin-top: -50px;
+  transform: rotate(-45deg);
+  display: none;
+}
+.rightBtn {
+  right: 50px;
+  margin-top: -50px;
+  transform: rotate(135deg);
+  display: none;
+}
+
+/* section03 end */
