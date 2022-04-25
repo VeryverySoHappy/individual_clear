@@ -231,6 +231,7 @@
 @media screen and (max-width:450px) {
   .title {
     top: 12%;
+    width: 70%;
   }
   .title p {
     font-size: 1.1rem;
@@ -244,6 +245,7 @@
   }
   .nap {
     padding: 100% 5% 20% 5%;
+    margin: 0;
   }
 }
 /* section01 reponsive  end*/
@@ -463,6 +465,15 @@
   .section02_item_box .text_box {
     width: 100%;
   }
+  .section02_item_box>li .hash_tag>li {
+    padding: 2% 0.5%;
+    font-size: .85rem;
+  }
+  .skill_box li img {
+    width: 90%;
+    height: 70%;
+    border: 2px solid #000;
+  }
 }
 /* section02 reponsive  end*/
 /* section02 end */
@@ -669,8 +680,7 @@
 
 @media screen and (max-width:1024px) {
   .section03 {
-    width: 
-    100%;
+    width: 100%;
   }
   .ps_title_wrap div {
     left: 22%;
@@ -746,43 +756,38 @@
 }
 
 @media screen and (max-width:450px) {
-  .section03 {
-    width: 100%;
-  }
   .ps_title_wrap {
-    width: 250px;
-    margin: 0 auto;
-    padding: 25% 0 10%;
+    width: 90%;
+    margin: 0 auto 10% auto;
   }
   .ps_title_wrap div {
     top: 35%;
-    left: 20%;
+    left: 5%;
     font-size: 1.2rem;
   }
   .ps_title_wrap h2 {
     font-size: 2rem;
   }
   .skill_IMG_wrap {
-    width: 90%;
+    width: 280px;
+    margin: 0 auto;
   }
   .skill_IMG_wrap li img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
+  .skill_IMG_wrap li {padding: 0 2%;}
   .skill_IMG_wrap li a {
-    width: 100px;
-    height: 100px;
-    margin: 0 18px 13px 0;
+    width: 120px;
+    height: 120px;
+    margin: 0;
     border-radius: 100%;
   }
+  .skill_IMG_wrap li:nth-child(4n) a {
+    margin: 0;
+  }
   .skill_IMG_wrap li:nth-child(6) a {
-    margin: 0 13px 15px 0;
-  }
-  .skill_IMG_wrap li:nth-child(11) a {
-    margin-bottom: 30px;
-  }
-  .skill_wrap {
-    width: 100px;
+    margin: 0;
   }
 }
 /* section03 reponsive end */
