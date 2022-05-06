@@ -1,0 +1,104 @@
+#wrapper {
+  width: 100%;
+  position: relative;
+}
+/* header start */
+#nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+}
+#nav h1 {
+  float: left;
+  color: #fff;
+  font-size: 40px;
+  line-height: 80px;
+  margin-left: 5%;
+}
+.logo a {
+  background: url(../img/logo_w.webp) no-repeat center bottom;
+  width: 100px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+  text-indent: -9999px;
+}
+#nav ul {
+  float: right;
+  padding-right: 15px;
+  width: 45%;
+}
+#nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  padding: 0 5%;
+}
+#nav ul li a {
+  display: block;
+  font-weight: 600;
+  font-size: 1.3vw;
+  color: #fff;
+}
+#nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* header end */
+
+/* footer start */
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(77, 77, 77);
+  color: #fff;
+}
+footer .footer_wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+footer .fl {
+  float: left;
+  width: 25%;
+}
+.fl .logo {
+  background: url(../img/logo_w.webp) no-repeat center bottom;
+  width: 100px;
+  padding: 5% 0;
+  text-indent: -9999px;
+}
+.fl p {
+  font-size: .8vw;
+}
+.fl .sns {
+  display: inline-block;
+  display: flex;
+  width: 20%;
+}
+.sns img {width: 100%;}
+.fl > div {
+  width: 100%;
+  padding-top: 10%;
+  font-size: 1vw;
+}
+footer .fnb {
+  float: right;
+  width: 75%;
+  height: 200px;
+  padding-top: 2%;
+  box-sizing: border-box;
+}
+.fnb {
+  height: 200px;
+}
+.fnb > ul {
+  float: left;
+  width: calc(100%/3);
+  font-size: 1vw;
+}
+.fnb > ul > li {padding-bottom: 5%;}
+.fnb > ul > li a {color: #fff;}
+/* footer end */
